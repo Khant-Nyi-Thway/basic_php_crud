@@ -1,0 +1,64 @@
+    ---- My_SQL Connection -----
+(1)     username = "root";
+(2)     server = "localhost";
+(3)     my_sqli_connect(server,server_name,password,dbname);
+
+
+(4)
+    if(){
+        // true code   
+    }
+    else{
+        die()
+    }
+
+
+(5)     my_sqli_connect_error($db);
+
+
+(6)     my_sqli_query(database connection, query statement);  // 2 parameters
+
+
+
+(7)     header('1:2');
+        1=> Specifies the header string to send
+        2=>
+
+
+
+(8) Create Statement
+INSERT INTO table_name (column1, column2, column3,...) VALUES (value1,value2,value3,...);
+
+
+
+(9)  Read - UPDATE Statement
+SELECT column1, column2,.. FROM table_name;
+SELECT * FROM table_name;
+
+
+
+(10) Update Statement
+UPDATE table_name SET column1 = value1, column2 = value2,.. WHERE condition;
+
+
+(11) Delete Statement
+DELETE FROM table_name WHERE condition;
+
+()    isset(key=value... variable)
+
+=>  Checking if a variable exists before using it: This can help avoid "Undefined variable" warnings and errors.
+=>  Form handling: When processing form submissions, you can use isset() to check if form fields are set before accessing their values.
+=>  Conditional statements: You can use isset() to conditionally execute code based on whether a variable is set or not.
+=>  Array keys: You can use isset() to check if a specific key exists in an array before trying to access it.
+
+=>  Remember that isset() only checks if a variable is set and not null. 
+    If you want to check whether a variable
+    is not only set but also has a non-null value, you can use additional checks, like !is_null($variable), in combination with isset().
+
+
+
+(11)    mysqli_fetch_assoc();
+
+(12)  JAVASCRIPT BUILT-IN function  
+onclick=" return confirm('A U sure?') "
+

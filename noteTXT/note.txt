@@ -1,0 +1,9 @@
+boostrap version = 4.5.3 <= actual using (4.5.2 from youtube)
+  
+database
+table = post
+
+
+<?php if(isset($_SESSION['successMsg'])): ?>
+
+
